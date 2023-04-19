@@ -30,6 +30,7 @@
     column-gap: 32px;
 }
 .Add{
+    cursor: pointer;
     width: 158px;
     height: 48px;
     border-radius: 8px;
@@ -52,7 +53,6 @@
 }
 .Main{
     width: 1232px;
-    height: 1480px;
     background: salmon;
     margin: 0 auto;
     padding-left: 104px;
@@ -65,13 +65,12 @@
     padding-top: 80px;
 }
 .Content{
-    display: flex;
     margin-top: 64px;
+    display: flex;
     justify-content: space-between;
 }
 .ContentLeft{
     width: 816px;
-    justify-content: space-between;
 }
 .video{
     display: flex;
@@ -97,12 +96,12 @@
 }
 .form{
     width: 720px;
-    height: 474px;
     margin-top: 56px;
     padding-top: 48px;
-    background: brown; 
     padding-left: 48px;  
-    padding-right: 48px; 
+    padding-right: 48px;
+    padding-bottom: 8px;
+    
 }
 .title{
     font-family: 'Mulish', sans-serif;
@@ -112,27 +111,37 @@
 }
 .Sub{
     padding-bottom: 45px;
+    color:rgba(146, 146, 157, 1);
 }
 .anket{
     display: flex;
     justify-content: space-between;
     width: 740px;
-    background: darkcyan;
+    height: 570px;
     flex-wrap: wrap;
     column-gap: 14px;
+    margin-bottom: 48px;
 }
 .pp{
     font-family: 'Mulish', sans-serif;
     font-size: 16px;
     font-weight: 700;
+    margin-bottom:21px ;
+    margin-top: 32px;
 }
 .Price{
     width: 100%;
     height: 56px;
+    border-color:rgba(250, 60, 69, 1);
+    border-radius: 8px;
+    padding-left: 16px;
 }
 .Iterest{
     width: 352px;
     height: 56px;
+    border-color:rgba(250, 60, 69, 1);
+    border-radius: 8px;
+    padding-left:5px;
 }
 .InputBottom{
     width: 100%;
@@ -140,5 +149,127 @@
 }
 .paymet{
     height: 56px;
-    width: 99.1%;
+    width: 97.3%;
+    border-color:rgba(250, 60, 69, 1);
+    border-radius: 8px;
+    padding-left: 16px;
+}
+.BtnAnket{
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    height: 48px;
+    margin-top: 48px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: none;
+    border-radius:8px;
+    background:rgba(250, 60, 69, 1);
+    color: #fff;
+}
+.ConatainerRight{
+    width: 400px;
+}
+.promo{
+    text-decoration: 0.6s;
+    width: 100%;
+    height: 560px;
+    background:rgba(197, 1, 10, 1);
+    border-radius: 8px;
+    opacity: 0.5;
+}
+.promo:hover{
+    transition-duration: 0.6s;
+    opacity: 1;
+}
+.TitlePromo{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size:39px;
+    width:263px;
+    display: block;
+    text-align: center;
+    padding-top: 166px;
+    margin: 0 auto;
+    color: #fff;
+}
+.SubtitlePromo{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    padding: 24px;
+    width:226px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    color: #fff;
+}
+.BtnPromo{
+    display: block;
+    margin: 40px auto 0 auto;
+    cursor: pointer;
+    width: 102px;
+    height: 40px;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    background: none;
+}
+.ContactDealer{
+    width: 100%;
+    height: 590px;
+    background: rgb(99, 30, 210);
+    margin-top: 16px;
+}
+.contact{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 39px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 32px;
+}
+.YourNme{
+    display: block;
+    margin: 0 auto;
+    height: 56px;
+    width: 70%;
+    border-color: rgba(250, 60, 69, 1);
+    border-radius: 8px;
+}
+.YourEmail{
+    display: block;
+    margin: 0 auto;
+    height: 56px;
+    width: 70%;
+    border-color: rgba(250, 60, 69, 1);
+    border-radius: 8px;
+    margin-top: 24px;
+}
+.YourMessages{
+    display: block;
+    margin: 0 auto;
+    height: 120px;
+    width: 70%;
+    border-color: rgba(250, 60, 69, 1);
+    border-radius: 8px;
+    margin-top: 24px;
+}
+.Send{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    width: 168px;
+    height: 56px;
+    margin-top: 59px;
+    margin-left:63px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(250, 60, 69, 1);
+    color: #fff
 }
